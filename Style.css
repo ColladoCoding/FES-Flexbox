@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50^;
+    height: 100px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    Align-items: stretch;
+}
+
+.box {
+    width: 100px;
+    border: 2px solid black
+}
+
+p {
+    color: blue
+}
+
+h1 {
+    color: teal
+}
+
+h2 {
+    color: purple
+}
+
+h3 {
+    color: brown
+}
+
+header {
+    font-size: 50px;
+    font-weight: bold;
+}
