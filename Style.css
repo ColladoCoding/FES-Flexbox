@@ -13,26 +13,24 @@
 
 .box {
     width: 100px;
-    border: 2px solid black
-}
-
-p {
-    color: blue
-}
-
-h1 {
-    color: teal
-}
-
-h2 {
-    color: purple
-}
-
-h3 {
-    color: brown
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 header {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 30px;
+    color: teal
+}
+
+footer {
     font-size: 50px;
     font-weight: bold;
 }
